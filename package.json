@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@yarnpkg/builder": "^2.1.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "eslint": "^7.6.0"
+  }
+}
